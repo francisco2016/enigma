@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=num\ numPaEncriptar
+comment0.target=Mecanismo1(int,\ int)
+comment0.text=\r\n\ \ num\ introduzca\ un\ n\u00BA\ primo.\r\n\ \ numPaEncriptar\ es\ el\ n\u00BA\ para\ encriptar\ y\ desencriptar\r\n
+comment1.params=
+comment1.target=boolean\ numPrimo()
+comment1.text=\r\n\ numero\ que\ asigna\ un\ n\u00BA\ primo\r\n
+comment2.params=
+comment2.target=int\ encriptadoConMecanismoPrimo()
+comment2.text=\r\n\ mt\ para\ multiplicar\ un\ n\u00BA\ pasado\ como\ par\u00E1metro\ por\ otro\ n\u00BA\ primo\ pasado\ como\ par\u00E1metro\r\n\ \ si\ el\ n\u00BA\ primo\ pasado\ como\ par\u00E1metro\ no\ es\ primo,\ usaremos\ el\ 31\ por\ defecto.\r\n
+comment3.params=
+comment3.target=int\ desencriptadoConMecanismoPrimo()
+comment3.text=\r\n\ mt\ para\ desencriptar\ el\ n\u00BA\ encriptado\r\n
+numComments=4
