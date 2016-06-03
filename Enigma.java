@@ -7,27 +7,39 @@
  */
 public class Enigma
 {
-    // instance variables - replace the example below with your own
-    private int x;
+
 
     /**
      * Constructor for objects of class Enigma
      */
     public Enigma()
     {
-        // initialise instance variables
-        x = 0;
     }
 
     /**
      * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
+     *  assertEquals(35084, enigma.encripta(mecanismo01, 5012)); 
      */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
-    }
+   public int encripta(Mecanismo mecanismo, int num){
+       int numero;
+       if (num <= 10) {
+           numero = -1;
+        }
+        else {
+            numero= mecanismo.encripta(num);
+        }
+        return numero;
+   }
+   
+   /**
+     * An example of a method - replace this comment with your own
+     *  assertEquals(35084, enigma.encripta(mecanismo01, 5012)); 
+     */
+   public int desencripta(Mecanismo mecanismo, int num){
+       int numero = mecanismo.desencripta(num);
+       if (numero <= 10) {
+           numero = -1;
+        }
+        return numero;
+   }
 }

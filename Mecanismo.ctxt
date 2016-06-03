@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=numElegido
+comment0.target=Mecanismo(int)
+comment0.text=\r\n\ numElegido\ elige\ un\ n\u00FAmero\ del\ 1\ al\ 9\r\n
+comment1.params=num
+comment1.target=int\ encripta(int)
+comment2.params=num
+comment2.target=int\ desencripta(int)
+comment3.params=
+comment3.target=int\ getNumElegido()
+numComments=4

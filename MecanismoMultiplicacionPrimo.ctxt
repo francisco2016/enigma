@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=num
+comment0.target=MecanismoMultiplicacionPrimo(int)
+comment0.text=\r\n\ \ num\ introduzca\ un\ n\u00BA\ primo.\r\n\ \ numPaEncriptar\ es\ el\ n\u00BA\ para\ encriptar\ y\ desencriptar\r\n
+comment1.params=numParaEncriptar
+comment1.target=int\ encripta(int)
+comment2.params=numParaEncriptar
+comment2.target=int\ desencripta(int)
+numComments=3
